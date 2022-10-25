@@ -1,14 +1,14 @@
 var fs = require('fs')
 
 //sync
-// try{
-//     let data = fs.readFileSync('readMes.txt', 'utf-8');
-//     console.log(data)
-//     fs.writeFileSync('writeMe.txt', data)
-// }
-// catch(er){
-//     console.log('Error:',er.message)
-// }
+try{
+    let data = fs.readFileSync('readMes.txt', 'utf-8');
+    console.log(data)
+    fs.writeFileSync('writeMe.txt', data)
+}
+catch(er){
+    console.log('Error:',er.message)
+}
 
 
 
