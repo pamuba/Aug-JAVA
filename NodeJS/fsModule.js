@@ -1,20 +1,21 @@
 var fs = require('fs')
 
+// console.log(__dirname)
 //sync
-try{
-    let data = fs.readFileSync('readMes.txt', 'utf-8');
-    console.log(data)
-    fs.writeFileSync('writeMe.txt', data)
-}
-catch(er){
-    console.log('Error:',er.message)
-}
+// try{
+//     let data = fs.readFileSync('readMes.txt', 'utf-8');
+//     console.log(data)
+//     fs.writeFileSync('writeMe.txt', data)
+// }
+// catch(er){
+//     console.log('Error:',er.message)
+// }
 
 
 
 //async doesnt work with try/catch
 //use callbacks
-// fs.readFile('readMe.txt', 'utf-8', function(err, data){
+// fs.readFile('readMes.txt', 'utf-8', function(err, data){
 //     if(err == null)
 //         {
 //             console.log(data); 
@@ -61,3 +62,5 @@ catch(er){
 //                 console.log("Dir removed successfully")
 //             }
 // })
+
+//wap to delete a non-empty directtory

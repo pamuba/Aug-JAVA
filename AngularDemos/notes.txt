@@ -1,0 +1,21 @@
+Attributes : HTML, immutable
+Properties : DOM , mutable
+
+attributes initializes the properties
+
+2. Class Binding
+3. Style Binding
+4. Event Binding
+5. Template reference variable
+6. 2 way databinding
+
+What is  a directive
+custom HTML tags -  extends HTML
+directions for the Angular runtime
+
+Structural Directives(adds/ removes DOM nodes)
+a. ngIf
+b. ngSwitch
+c. ngFor
+
+pipes 
